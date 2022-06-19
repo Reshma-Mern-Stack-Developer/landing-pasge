@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************************
+  General Style Start
+*************************/
+body{
+  font-family: 'Manrope', sans-serif;
+}
+ul li{
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.global-btn{
+  background: #4F46BA;
+  padding: 20px 22px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.global__btnIcon{
+  padding-left: 47px;
+}
+/************************
+    General Style End
+*************************/
+/************************
+      Navbar Start
+*************************/
+nav{
+  margin-top: 37px;
+}
+.navbar-nav {
+  margin-top: 0 !important;
+}
+.nav-link {
+  color: #000 !important;
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav__btns{
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__btn{
+  font-size: 18px;
+  font-weight: 500 !important;
+  color: #000;
+  display: inline-block;
+}
+.nav__btn:hover{
+  color: #000;
+}
+.nav__btn--bg{
+  background: #4F46BA;
+  padding: 18px 36px;
+  color: #fff;
+  margin-left: 50px;
+}
+.nav__btn--bg:hover{
+  color: #fff;
+}
+
+/************************
+      Navbar End
+*************************/
+.banner{
+  padding-top: 50px;
+}
+.banner__flex{
+  align-items: center;
+}
+.banner__title{
+  font-weight: 800;
+  font-size: 66px;
+  line-height: 73px;
+  color:#000;
+}
+.banner__p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+.banner__p--w {
+  max-width: 396px;
+}
+.banner__peopleImg {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+/************************
+      Banner End
+*************************/
+/************************
+      Trust Start
+*************************/
+.trust {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 75px 90px;
+}
+.trust__heading{
+  font-size: 25px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+  font-weight: 600;
+}
+.trust__imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+/************************
+      Trust End
+*************************/
+/************************
+      Decore Start
+*************************/
+.decore__img {
+  display: block;
+  width: 100%;
+}
+/************************
+      Decore End
+*************************/
+/************************
+      Platform Start
+*************************/
+
+/************************
+      Platform End
+*************************/
+/************************
+      Followers Start
+*************************/
+
+/************************
+      Followers End
+*************************/
+/************************
+      Users Start
+*************************/
+
+/************************
+      Users End
+*************************/
+/************************
+      Testimonials Start
+*************************/
+
+/************************
+      Testimonials End
+*************************/
+/************************
+      Faq Start
+*************************/
+
+/************************
+      Faq End
+*************************/
+/************************
+      Subscribe Start
+*************************/
+
+/************************
+      Subscribe End
+*************************/
+/************************
+      Footer Start
+*************************/
+
+/************************
+      Footer End
+*************************/
+
+
+
+
+
+
+
+/************************
+      Banner End
+*************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
