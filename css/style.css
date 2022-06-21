@@ -18,7 +18,7 @@ ul li{
 a{
   text-decoration: none;
 }
-.global-btn{
+.global__btn{
   background: #4F46BA;
   padding: 20px 22px;
   color: #fff;
@@ -34,6 +34,14 @@ a{
 }
 .global__btnIcon{
   padding-left: 47px;
+}
+.global__btn--pad {
+  padding: 17px 57px;
+  border-radius: 0;
+}
+.gloabl__line {
+  margin-left: 36px;
+  margin-top: -42px;
 }
 /************************
     General Style End
@@ -145,14 +153,61 @@ nav{
 /************************
       Platform Start
 *************************/
-
+.platform{
+  padding-top: 52px;
+  padding-bottom: 79px;
+}
+.platform__heading{
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  max-width: 541px;
+  margin-bottom: 50px;
+}
+.platform__heading2{
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 600;
+  margin: 17px 0;
+}
+.platform__p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+  max-width: 252px;
+}
+.platform__img {
+  width: 46px;
+}
 /************************
       Platform End
 *************************/
 /************************
       Followers Start
 *************************/
-
+.followers__align {
+  align-items: center;
+}
+.followers__heading{
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 64px;
+  color: #000000;
+  max-width: 555px;
+}
+.followers__p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  max-width: 522px;
+  margin-top: 25px;
+  margin-bottom: 44px;
+}
 /************************
       Followers End
 *************************/
@@ -166,21 +221,230 @@ nav{
 /************************
       Testimonials Start
 *************************/
-
+.testimonial{
+padding-bottom: 110px;
+}
+.testimonial__title {
+  text-align: center;
+}
+.testimonial__subhd{
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #3734A9;
+}
+.testimonal__hd{
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+  color: #000000;
+  max-width: 533px;
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+.testimonial__coma {
+  display: block;
+  position: absolute;
+  top: -28px;
+}
+.testimonial__item {
+  width: 383px;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-shadow: 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+  
+  padding-bottom: 20px;
+  position: relative;
+  padding-top: 60px;
+}
+.testimonial__star{
+  color: #FE8B75;
+}
+.testimonial__p {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #797979;
+  width: 334px;
+}
+.testimonial__gap {
+  padding-left: 30px;
+}
+.testimonial__details {
+  display: flex;
+  border-top: 1px solid #EAEFF3;
+  padding-left: 30px;
+  padding-top: 17px;
+}
+.testimonial__img {
+  margin-right: 20px;
+}
+.testimonial__name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #453232;
+  margin-bottom: 3px;
+}
+p.testimonial__prof {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #797979;
+}
 /************************
       Testimonials End
 *************************/
 /************************
       Faq Start
 *************************/
-
+.faq{
+  padding-top: 110px;
+  padding-bottom: 191px;
+}
+.faq__head {
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 64px;
+  color: #000000;
+  max-width: 448px;
+  margin-bottom: 60px;
+}
+.faq__p {
+  max-width: 475px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  color: #1B1C31;
+  margin-bottom: 47px;
+}
+.faq__btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  color: #4F46BA;
+}
+.faq__icon--p{
+  padding-left: 10px;
+}
+.faq__question {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  position: relative;
+}
+.faq__icon {
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+.faq__accordian {
+  max-width: 622px;
+}
+.faq__ans {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #1B1C31;
+  max-width: 621px;
+}
+.faq__qs {
+  border-bottom: 2px solid #8896A6;
+  padding: 25px 0;
+}
 /************************
       Faq End
 *************************/
 /************************
       Subscribe Start
 *************************/
-
+.subscribe{
+  padding-bottom: 208px;
+  padding-top: 130px;
+  background: url("../img/subscribebg.png") no-repeat center;
+  background-size: cover;
+}
+.subscribe__box{
+  background:#3734A9 url("../img/shape.png") no-repeat;
+  max-width: 593px;
+  padding: 66px 0;
+  padding-left: 54px;
+  border-radius: 15px;
+}
+.subscribe__subhd {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #DEE1E6;
+  text-transform: uppercase;
+}
+.subscribe__hd {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  padding-bottom: 22px;
+  padding-top: 13px;
+  max-width: 305px;
+}
+.subscribe__form {
+  max-width: 493px;
+  position: relative;
+  border-radius: 10px;
+}
+.subscribe__input {
+  background: #fff;
+  opacity: .6;
+  border: 0;
+  width: 100%;
+  padding: 20px 0;
+  padding-left: 23px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.subscribe__input:focus{
+  border: 0;
+  outline: 0;
+}
+.subscribe__btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.subscribe__btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 24px 30px;
+  padding-left: 38px;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #E8F2FF;
+  background: #FF7F5C;
+  border-radius: 0px 10px 10px 0px;
+  border: 0;
+  font-weight: 600;
+}
+.subscribe__input::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #1B1C31;
+  opacity: 0.4;
+  font-weight: 600;
+}
 /************************
       Subscribe End
 *************************/
