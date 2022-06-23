@@ -1,0 +1,307 @@
+@media (max-width:1536px) and (min-width:1280px) {
+  .container {
+    max-width: 94%;
+  }
+  .banner__rightImg {
+    max-width: 100%;
+  }
+  .banner__img {
+    width: 100%;
+  }
+  .followers__img {
+    width: 100%;
+  }
+  .followers__right {
+    max-width: 100%;
+  }
+  .platform__p {
+    max-width: 219px;
+  }
+  .platform__heading2 {
+    font-size: 20px;
+  }
+
+}
+@media (min-width:1025px) and (max-width:1279px) {
+  .container {
+    max-width: 94%;
+  }
+  .banner__rightImg {
+    max-width: 100%;
+  }
+  .banner__img {
+    width: 100%;
+  }
+  .followers__img {
+    width: 100%;
+  }
+  .followers__right {
+    max-width: 100%;
+  }
+  .platform__p {
+    max-width: 219px;
+  }
+  .platform__heading2 {
+    font-size: 20px;
+  }
+  .banner__title {
+    font-size: 50px;
+    line-height: 61px;
+  }
+  .trust__item {
+    width: 23%;
+    margin-bottom: 55px;
+  }
+  .trust__imgs {
+    flex-wrap: wrap;
+  }
+  .testimonial__item {
+    width: 95%;
+  }
+  .testimonial__p {
+    width: 95%;
+  }
+  .followers__heading {
+    font-size: 44px;
+    line-height: 51px;
+  }
+  .faq__head {
+    font-size: 37px;
+    line-height: 52px;
+    max-width: 401px;
+    margin-bottom: 39px;
+  }
+  .faq__p {
+    max-width: 411px;
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 37px;
+  }
+  .footer__hd {
+    font-size: 43px;
+    line-height: 58px;
+    text-align: center;
+    max-width: 652px;
+  }
+  .testimonal__hd {
+    font-size: 45px;
+    line-height: 64px;
+    max-width: 459px;
+    margin-bottom: 65px;
+  }
+
+}
+@media (max-width:1024px) {
+  .banner__title {
+    font-size: 41px;
+    line-height: 51px;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .banner__p {
+    font-size: 17px;
+    line-height: 29px;
+  }
+  img {
+    max-width: 115%;
+  }
+  .trust__item {
+    width: 23%;
+    margin-bottom: 55px;
+  }
+  .trust__imgs {
+    flex-wrap: wrap;
+  }
+  .followers__img {
+    max-width: 100%;
+  }
+  .followers__heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .testimonal__hd {
+    font-weight: 800;
+    font-size: 47px;
+    line-height: 57px;
+    text-align: center;
+    color: #000000;
+    max-width: 481px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .platform__p {
+    max-width: 368px;
+  }
+  .testimonial__item {
+    width: 100%;
+    text-align: center;
+  }
+  .testimonial__item {
+    width: 95%;
+    margin-bottom: 58px;
+  }
+  .testimonial__p {
+    width: 95%;
+  }
+  .testimonial {
+    padding-bottom: 0;
+  }
+  .faq__head {
+    font-size: 37px;
+    line-height: 50px;
+    margin-bottom: 24px;
+  }
+  .faq__question {
+    font-size: 18px;
+  }
+  .faq__qs {
+    padding: 15px 0;
+  }
+  .testimonial__coma {
+    display: block;
+    position: absolute;
+    top: -28px;
+    right: 44%;
+  }
+  .footer__hd {
+    font-size: 38px;
+    line-height: 53px;
+    max-width: 90%;
+  }
+  .testimonial__details {
+    justify-content: center;
+  }
+  .subscribe {
+    padding-bottom: 106px;
+    padding-top: 66px;
+  }
+  .navbar-toggler {
+    border: 0;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: block;
+  }
+  .collapse:not(.show) {
+    display: none !important;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+  }
+}
+@media (max-width:768px) {
+  .user__align{
+    flex-direction: column-reverse;
+  }
+  .footer__support {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer__p {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .faq {
+    padding-top: 50px;
+    padding-bottom: 39px;
+  }
+  .faq__p {
+    max-width: 100%;
+  }
+  .footer__details {
+    padding-top: 43px;
+    padding-bottom: 39px;
+  }
+  .subscribe__form {
+    max-width: 93%;
+  }
+  .trust__item {
+    width: 100%;
+    margin-bottom: 55px;
+  }
+  .followers__right {
+    margin-top: 55px;
+  }
+  .followers__p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 25px;
+    margin-bottom: 21px;
+  }
+}
+@media (max-width:576px) {
+  .banner__title {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .banner__p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .trust__heading {
+    font-size: 17px;
+    width: 100%;
+  }
+  .trust__imgs {
+    margin-top: 50px;
+  }
+  .trust {
+    padding: 64px 20px;
+  }
+  .platform__heading {
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 100%;
+    margin-bottom: 37px;
+  }
+  .followers__heading {
+    font-size: 33px;
+    line-height: 43px;
+    max-width: 100%;
+  }
+  .testimonal__hd {
+    font-size: 36px;
+    line-height: 47px;
+    max-width: 100%;
+  }
+  .subscribe__hd {
+    font-size: 25px;
+    line-height: 36px;
+    max-width: 100%;
+  }
+  .faq__head {
+    font-size: 32px;
+    line-height: 43px;
+    margin-bottom: 24px;
+  }
+  .faq__question {
+    font-size: 15px;
+  }
+  .faq__ans {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .subscribe__btn {
+    position: initial;
+    padding-left: 38px;
+    width: 100%;
+    display: block;
+    margin-top: 56px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.subscribe__box {
+	padding: 26px 0;
+  padding-left: 25px;
+}
+}
+@media (max-width:391px) {
+  .gloabl__line {
+    display: none;
+  }
+}
